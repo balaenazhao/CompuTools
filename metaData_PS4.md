@@ -2,7 +2,7 @@
 ## Information about the cranes.csv file.
 
 This file contains information of the museum collection for several crane speices.
-The data were retreived from VertNet Portal, trimmed by Min Zhao, as the original data contained many identical columns and missing info.
+The data were retreived from [VertNet Portal](http://portal.vertnet.org/search), trimmed by Min Zhao, as the original data contained many identical columns and missing info.
 
 
 Data were downloaded Nov. 27, 2018.
@@ -18,9 +18,10 @@ catalognumber | A unique number for each specimen
 sex | gender of the specimen
 lifestage | age of the bird when it was caught or died
 massing | body mass of the bird in grammes
-eventdate | the date when bird was caught or died
+eventdate | the date when the bird was caught or died
 continent | the continent where the bird was caught or confined
 country | the country where the bird was caught or confined
+countrycode | 3-lettered unique code for each country
 stateprovince | the state/province where the bird was caught or confined
 county | the county where the bird was caught or confined
 locality | the locality where the bird was caught or confined
