@@ -1,9 +1,9 @@
 # Descriptions of data normalization for cranes.csv
-## 152 specimen entries, 24 columns
+## Original data sheet contains 152 specimen records and 24 fields.
 
 This large table can be divided into 4 tables (museum, taxonomy, specimen and country), to reduce redundancy and increase readability.
 Multiple specimens can be stored in the same museum, which has the same contact person and email.
-One species can have multiple specimens, therefore taxonomic info would be redundant across the specimenes from the same species.
+One species can have multiple specimens, therefore taxonomic info would be redundant across the specimens from the same species.
 Multiple specimens from the same or different species can come from the same country and continent, so a country table can reduce a lot of repetitive info.
 
 Table **museum** 
