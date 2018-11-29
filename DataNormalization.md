@@ -35,10 +35,10 @@ Table **specimen**
 Column header | Data type
 --------------|----------
 id | int
-species_name | string
+scientific_name | string
 museum_code | string
 sex | string
-age | string
+lifestage | string
 mass | float
 country_code | string
 state | string
