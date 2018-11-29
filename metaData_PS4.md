@@ -27,12 +27,12 @@ county | the county where the bird was caught or confined
 locality | the detailed locality where the bird was caught or confined
 elevation | evevation of the locality in meters
 scientific_name | scientific name for each specimen
-kingdom | the classification of the specimen, this would be the same for all rentires.
-phylum | the classification of the specimen, this would be the same for all rentires.
-class | the classification of the specimen, this would be the same for all rentires.
-order | the classification of the specimen, this would be the same for all rentires.
-family | the classification of the specimen, this would be the same for all rentires.
-genus | the classification of the specimen, this would be the same for all rentires.
+kingdom | the classification of the specimen, this would be the same for all records.
+phylum | the classification of the specimen, this would be the same for all records.
+class | the classification of the specimen, this would be the same for all records.
+order | the classification of the specimen, this would be the same for all records.
+family | the classification of the specimen, this would be the same for all records.
+genus | the classification of the specimen, this would be the same for all records.
 specific_epithet | the second element in the Latin binomial name of the species
 dataset_contact_email | email of the museum contact person
 dataset_contact | contact person for each museum
