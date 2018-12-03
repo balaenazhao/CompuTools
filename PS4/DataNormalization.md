@@ -34,7 +34,7 @@ Table **specimen**
 
 Column header | Data type
 --------------|----------
-id | int
+ID | int
 scientific_name | string
 museum_code | string
 sex | string
