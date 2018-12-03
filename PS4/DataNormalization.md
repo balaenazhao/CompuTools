@@ -1,5 +1,5 @@
 # Descriptions of data normalization for cranes.csv
-## Original data sheet contains 152 specimen records and 24 fields.
+## Original data sheet contains 151 specimen records and 24 fields.
 
 This large table can be divided into 4 tables (museum, taxonomy, specimen and country), to reduce redundancy and increase readability.
 Multiple specimens can be stored in the same museum, which has the same contact person and email.
