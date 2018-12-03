@@ -6,12 +6,14 @@ Multiple specimens can be stored in the same museum, which has the same contact 
 One species can have multiple specimens, therefore taxonomic info would be redundant across the specimens from the same species.
 Multiple specimens from the same or different species can come from the same country and continent, so a country table can reduce a lot of repetitive info.
 
+Primary keys are indicated with :key: , and foreign keys in bold.
+
 Table **museum** 
 
 Column header | Data type
 --------------|----------
 name | string
-code | string
+:key: code | string
 contact | string
 email | string
 
@@ -20,7 +22,7 @@ Table **taxonomy**
 
 Column header | Data type
 --------------|----------
-name | string
+:key: name | string
 kingdom | string
 phylum  | string
 class | string
@@ -34,13 +36,13 @@ Table **specimen**
 
 Column header | Data type
 --------------|----------
-ID | int
-scientific_name | string
-museum_code | string
+:key: ID | int
+**scientific_name** | string
+**museum_code** | string
 sex | string
 lifestage | string
 mass | float
-country_code | string
+**country_code** | string
 state | string
 county | string
 locality | string
@@ -52,6 +54,6 @@ Table **country**
 
 Column header | Data type
 --------------|----------
-code | string
+:key: code | string
 name | string
 continent | string
